@@ -47,7 +47,7 @@
             $pesan = $_POST['pesan'];
             $date = date("Y-m-d");
             // Insert data
-            $sql_insert = "INSERT INTO [dbo].[pesan] (nama, email, judul, pesan, date) 
+            $sql_insert = "INSERT INTO [dbo].[Pesan] (nama, email, judul, pesan, date) 
                         VALUES (?,?,?,?,?)";
             $stmt = $conn->prepare($sql_insert);
             $stmt->bindValue(1, $nama);
@@ -63,7 +63,7 @@
         echo "<h3>Terima kasih atas pesan dan kesan yang telah dikirimkan! :)</h3>";
     } else if (isset($_POST['load_data'])) {
         try {
-            $sql_select = "SELECT * FROM [dbo].[pesan]";
+            $sql_select = "SELECT * FROM [dbo].[Pesan]";
             $stmt = $conn->query($sql_select);
             $messages = $stmt->fetchAll(); 
             if(count($messages) > 0) {
@@ -75,7 +75,7 @@
                 echo "<th>Pesan</th>";
                 echo "<th>Date</th></tr>";
                 foreach($messages as $pesankesan) {
-                    echo "<tr><td>".$pesankesan['name']."</td>";
+                    echo "<tr><td>".$pesankesan['nama']."</td>";
                     echo "<td>".$pesankesan['email']."</td>";
                     echo "<td>".$pesankesan['judul']."</td>";
                     echo "<td>".$pesankesan['pesan']."</td>";
