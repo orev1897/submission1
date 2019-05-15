@@ -16,8 +16,8 @@
  </style>
  </head>
  <body>
- <h1>Register here!</h1>
- <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+ <h1>Silakan diisi pesan dan kesannya! :)</h1>
+ <p>isi data diri beserta pesan dan kesan, kemudian klik <strong>Submit</strong> untuk mengirimkan pesan dan kesan</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Nama  <input type="text" name="nama" id="nama"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br>
