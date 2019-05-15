@@ -53,8 +53,8 @@
             $stmt->bindValue(1, $nama);
             $stmt->bindValue(2, $email);
             $stmt->bindValue(3, $judul);
-			$stmt->bindValue(3, $pesan);
-            $stmt->bindValue(4, $date);
+		$stmt->bindValue(4, $pesan);
+            $stmt->bindValue(5, $date);
             $stmt->execute();
         } catch(Exception $e) {
             echo "Failed: " . $e;
