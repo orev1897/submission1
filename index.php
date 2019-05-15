@@ -23,8 +23,8 @@
        Email <input type="text" name="email" id="email"/></br></br>
        Judul <input type="text" name="judul" id="judul"/></br></br>
        Pesan <input type="text" name="pesan" id="pesan"/></br></br>
-       <input type="submit" name="submit" value="Submit" />
-       <input type="submit" name="load_data" value="Load Data" />
+       <input type="submit" name="submit" value="Kirim Pesan" />
+       <input type="submit" name="load_data" value="Lihat Pesan Masuk" />
  </form>
  <?php
     $host = "dicodingwebappservero.database.windows.net";
