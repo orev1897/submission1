@@ -16,15 +16,15 @@
  </style>
  </head>
  <body>
- <h1>Register here!</h1>
- <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+ <h1>Silakan isi pesan dan kesan teman-teman! :) </h1>
+ <p>isi data diri, dan kemudian klik <strong>Submit</strong> untuk mengirim pesan.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Nama  <input type="text" name="nama" id="nama"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br>
        Judul <input type="text" name="judul" id="judul"/></br></br>
        Pesan <input type="text" name="pesan" id="pesan"/></br></br>
        <input type="submit" name="submit" value="Submit" />
-       <input type="submit" name="load_data" value="Load Data" />
+       <input type="submit" name="load_data" value="Lihat Pesan" />
  </form>
  <?php
     $host = "dicodingwebappservero.database.windows.net";
