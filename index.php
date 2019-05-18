@@ -14,8 +14,6 @@
  	th { font-size: 1.2em; text-align: left; border: none; padding-left: 0; }
  	td { padding: 0.25em 2em 0.25em 0em; border: 0 none; }
  </style>
-	 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.3&appId=1186338934849467&autoLogAppEvents=1"></script>
 </head>
  <body>
  <h1>Silakan diisi pesan dan kesannya! :)</h1>
@@ -28,7 +26,7 @@
        <input type="submit" name="submit" value="Kirim Pesan" />
        <input type="submit" name="load_data" value="Lihat Pesan Masuk" />
  </form>
-<div class="fb-comments" data-href="https://dicodingweborev.azurewebsites.net/index.php" data-width="10" data-numposts="5"></div>
+
  <?php
     $host = "dicodingwebappservero.database.windows.net";
     $user = "orev";
